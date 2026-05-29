@@ -13,7 +13,7 @@ public class HighScore : MonoBehaviour
 
     public void Update()
     {
-        Debug.Log("Muntjessss: " + itemCollector.getHigscore());
+        Debug.Log("DEV Muntjessss: " + itemCollector.getHigscore());
             // Haal de hoeveelheid munten op van ItemCollector en werk de UI bij
             string coinCount = itemCollector.getHigscore();
             coinCountText.text = coinCount;
